@@ -1,0 +1,19 @@
+@mixin line-container {
+  display: flex;
+  align-items: center;
+}
+
+@mixin line-dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: $decorate-color;
+}
+
+@mixin line {
+  margin-left: 10px;
+  height: 5px;
+  width: 280px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: $decorate-color;
+}

@@ -1,0 +1,9 @@
+@import './componets/header.scss';
+@import './componets/main-content.scss';
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+}
